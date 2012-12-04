@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension xmlns="http://jcp.org/jsr/198/extension-manifest"
+        id="oracle.sqldeveloper.keep.connected"
+        version="2.1"
+        esdk-version="1.0">
+    <name>Keep Connected v2.1</name>
+    <owner>DougR - May 29, 2012</owner>
+    <dependencies>
+        <import>oracle.sqldeveloper</import>
+    </dependencies>
+    <hooks>
+        <jdeveloper-hook xmlns="http://xmlns.oracle.com/jdeveloper/1013/extension">
+            <addins>
+                <addin>kc.Activate</addin>
+            </addins>
+            <feature-hook>
+                <description>Keep connections alive"</description>
+                <optional>true</optional>
+            </feature-hook>
+        </jdeveloper-hook>
+    </hooks>
+</extension>            

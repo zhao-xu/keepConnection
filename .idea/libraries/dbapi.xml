@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dbapi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/dbapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javatools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/oracle.ide.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/oracle.sqldeveloper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/oracle.sqldeveloper.utils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

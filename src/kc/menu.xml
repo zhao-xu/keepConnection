@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="dialogs.xsd">
+	<folder type="CONNECTION">
+	    <name>Keep Connected v2.1</name>
+        <item type="CONNECTION"
+            className="kc.Activate" connectionRequired="false">
+            <title>Activate</title>
+        </item>
+        <item type="CONNECTION"
+            className="kc.Configure" connectionRequired="false">
+            <title>Configure</title>
+        </item>
+        <item type="CONNECTION"
+            className="kc.ListPingers" connectionRequired="false">
+            <title>List Pingers</title>
+        </item>
+        <item type="CONNECTION"
+            className="kc.RemoveAllPingers" connectionRequired="false">
+            <title>Remove All Pingers</title>
+        </item>
+        <item type="CONNECTION"
+            className="kc.RemovePinger" connectionRequired="false">
+            <title>Remove This Pinger</title>
+        </item>
+        <item type="CONNECTION"
+          className="kc.About" connectionRequired="false">
+            <title>About</title>
+        </item>
+	</folder>
+</items>

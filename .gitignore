@@ -1,0 +1,3 @@
+out/
+lib/*.jar
+oracle.sqldeveloper.keep.connected.jar
