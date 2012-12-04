@@ -1,8 +1,10 @@
-To build in Eclipse you'll need the following in your build path:
+A modified version of Oracle SQLDeveloper KeepConnected.  
+Origin version can be found at [https://sites.google.com/site/keepconnext/](https://sites.google.com/site/keepconnext/).  
 
-1.  dbapi.jar - c:\Program Files\Oracle\sqldeveloper 3.1.07.42\ide\lib
-2.  javatools.jar - c:\Program Files\Oracle\sqldeveloper 3.1.07.42\ide\lib
-3.  oracle.ide.jar - c:\Program Files\Oracle\sqldeveloper 3.1.07.42\ide\lib
-4.  oracle.sqldeveloper.jar - c:\Program Files\Oracle\sqldeveloper 3.1.07.42\sqldeveloper\extensions
+* Remove annoying popups.
 
-I have listed where I have them on my Windows machine, you may have them in a diffferent location.
+###Compile
+1. Execute `get-libs.sh` to copy dependencies.
+2. Compile. Sorry, no script here.
+3. Execute `deploy.sh` if you are using IntelliJ and your SQLDeveloper happen to installed under /Applications.
+   Otherwise, read the file, it's just a simple packing script.
