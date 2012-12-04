@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f4d2585-674f-40cb-a9cb-9e1d71e795a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/About.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/Accessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/Activate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/Common.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/Configure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/ListPingers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/Pinger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/RemoveAllPingers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/RemovePinger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dbapi.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/extension.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-libs.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keepConnection.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kc/menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/About.java" afterPath="$PROJECT_DIR$/src/kc/About.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/Accessor.java" afterPath="$PROJECT_DIR$/src/kc/Accessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/Activate.java" afterPath="$PROJECT_DIR$/src/kc/Activate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/Common.java" afterPath="$PROJECT_DIR$/src/kc/Common.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/Configure.java" afterPath="$PROJECT_DIR$/src/kc/Configure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/ListPingers.java" afterPath="$PROJECT_DIR$/src/kc/ListPingers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/Pinger.java" afterPath="$PROJECT_DIR$/src/kc/Pinger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/RemoveAllPingers.java" afterPath="$PROJECT_DIR$/src/kc/RemoveAllPingers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/RemovePinger.java" afterPath="$PROJECT_DIR$/src/kc/RemovePinger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kc/menu.xml" afterPath="$PROJECT_DIR$/src/kc/menu.xml" />
     </list>
     <ignored path="keepConnection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +23,7 @@
     <file path="/deploy.sh" changelist="2f4d2585-674f-40cb-a9cb-9e1d71e795a1" time="1354619541669" ignored="false" />
     <file path="/.gitignore" changelist="2f4d2585-674f-40cb-a9cb-9e1d71e795a1" time="1354620723627" ignored="false" />
     <file path="/get-libs.sh" changelist="2f4d2585-674f-40cb-a9cb-9e1d71e795a1" time="1354620589772" ignored="false" />
-    <file path="/Dummy.txt" changelist="2f4d2585-674f-40cb-a9cb-9e1d71e795a1" time="1354621655911" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f4d2585-674f-40cb-a9cb-9e1d71e795a1" time="1354621679925" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -469,25 +455,30 @@
       <created>1354613630793</created>
       <updated>1354613630793</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1354621701634</created>
+      <updated>1354621701634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32647058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.6735294" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,8 +494,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
